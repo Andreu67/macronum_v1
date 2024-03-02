@@ -20,7 +20,7 @@
 
         default_layer {
             bindings = <
-                &kp K_MUTE      &kp LGUI(c)   &kp LGUI(v)     &mo FN
+                &kp K_MUTE      &kp LG(c)   &kp LG(v)     &mo FN
                 &kp LOCKING_NUM &kp KP_DIVIDE &kp KP_MULTIPLY &kp KP_MINUS
                 &kp KP_N7       &kp KP_N8     &kp KP_N9       &kp PLUS
                 &kp KP_N4       &kp KP_N5     &kp KP_N6       
