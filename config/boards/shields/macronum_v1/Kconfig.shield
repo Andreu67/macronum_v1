@@ -1,2 +1,2 @@
 config SHIELD_MACRONUM_V1
-    def_bool $(shields_list_contains, macronum_v1)
+    def_bool $(shields_list_contains,macronum_v1)
