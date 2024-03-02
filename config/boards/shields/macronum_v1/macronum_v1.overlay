@@ -9,7 +9,7 @@
         compatible = "zmk,kscan-gpio-matrix";
         label = "default_kscan";
         diode-direction = "col2row";
-        
+
         row-gpios = 
                     <&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                     <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
@@ -25,7 +25,7 @@
                     <&pro_micro 18 (GPIO_ACTIVE_HIGH)>;
     };
 
-    transform0: matrix_transform {
+    default_transform: matrix_transform {
         compatible = "zmk,matrix-transform";
         rows = <6>;
         columns = <4>;
