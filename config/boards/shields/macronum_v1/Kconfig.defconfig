@@ -1,0 +1,5 @@
+if SHIELD_MACRONUM_V1
+
+config ZMK_KEYBOARD_NAME
+    default "macronum_v1"
+    endif
