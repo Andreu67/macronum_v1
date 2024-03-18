@@ -21,8 +21,8 @@
         default_layer {
             bindings = <
                 &kp K_MUTE      &kp LG(C)   &kp LG(V)     &mo FN
-                &kp LOCKING_NUM &kp KP_DIVIDE &kp KP_MULTIPLY &kp KP_MINUS
-                &kp KP_N7       &kp KP_N8     &kp KP_N9       &kp PLUS
+                &kp KP_NLCK &kp KP_DIVIDE &kp KP_MULTIPLY &kp KP_MINUS
+                &kp KP_N7       &kp KP_N8     &kp KP_N9       &kp KP_PLUS
                 &kp KP_N4       &kp KP_N5     &kp KP_N6       
                 &kp KP_N1       &kp KP_N2     &kp KP_N3       &kp ENTER
                 &kp KP_N0                     &kp KP_DOT 
